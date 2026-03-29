@@ -1,0 +1,43 @@
+# AKT-Recon .gitignore
+
+# Scan results (don't upload target data)
+akt_results/
+*.json
+*.html
+/home/kali/akt_report_*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+/tmp/

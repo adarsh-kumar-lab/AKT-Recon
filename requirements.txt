@@ -1,0 +1,11 @@
+# AKT-Recon v2.0 - Requirements
+# Most modules use Python standard library only
+# These are optional enhancements
+
+# Core (already in Python standard library - no install needed)
+# socket, ssl, subprocess, threading, json, re, datetime, ipaddress
+
+# Optional enhancements (install for better results)
+requests>=2.28.0
+colorama>=0.4.6
+dnspython>=2.3.0

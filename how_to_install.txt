@@ -1,0 +1,42 @@
+============================================================
+  AKT-Recon v2.0 — Quick Install Guide
+  Author: Adarsh Kumar Tiwari
+============================================================
+
+STEP 1 — Clone the repository
+------------------------------
+git clone https://github.com/adarsh-kumar-lab/AKT-Recon.git
+cd AKT-Recon
+
+STEP 2 — Install system tools (Kali Linux)
+-------------------------------------------
+sudo apt update
+sudo apt install -y dnsutils whois python3-pip
+
+STEP 3 — Install Python packages
+----------------------------------
+pip install -r requirements.txt
+
+STEP 4 — Make executable
+--------------------------
+chmod +x akt_recon_v2.py
+
+STEP 5 — Run on practice target
+---------------------------------
+python3 akt_recon_v2.py testphp.vulnweb.com
+
+STEP 6 — View your report
+---------------------------
+cd akt_results/testphp.vulnweb.com/
+firefox report.html
+
+============================================================
+  LEGAL PRACTICE TARGETS (safe to scan)
+============================================================
+  testphp.vulnweb.com     (Acunetix official)
+  testasp.vulnweb.com     (Acunetix official)
+  testhtml5.vulnweb.com   (Acunetix official)
+
+============================================================
+  NEVER scan targets without written permission!
+============================================================
